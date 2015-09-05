@@ -1,0 +1,23 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RocketSplit.Droid", "RocketSplit.Droid\RocketSplit.Droid.csproj", "{EEC6EAD1-E704-4C04-9952-8A50BF2BB968}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RocketSplit.Droid.UITests", "RocketSplit.Droid.UITests\RocketSplit.Droid.UITests.csproj", "{6AF54186-63FB-4ECD-ADA6-2B717B1DAB67}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6AF54186-63FB-4ECD-ADA6-2B717B1DAB67}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6AF54186-63FB-4ECD-ADA6-2B717B1DAB67}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6AF54186-63FB-4ECD-ADA6-2B717B1DAB67}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6AF54186-63FB-4ECD-ADA6-2B717B1DAB67}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EEC6EAD1-E704-4C04-9952-8A50BF2BB968}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EEC6EAD1-E704-4C04-9952-8A50BF2BB968}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EEC6EAD1-E704-4C04-9952-8A50BF2BB968}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EEC6EAD1-E704-4C04-9952-8A50BF2BB968}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
