@@ -85,11 +85,6 @@
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
   <ItemGroup>
-    <Folder Include="Screens\" />
-    <Folder Include="Resources\Images\" />
-    <Folder Include="Resources\Icons\" />
-  </ItemGroup>
-  <ItemGroup>
     <BundleResource Include="Resources\Default-568h%402x.png" />
     <BundleResource Include="Resources\Images\transparent.png" />
   </ItemGroup>

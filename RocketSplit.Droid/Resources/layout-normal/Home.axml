@@ -14,7 +14,7 @@
         android:id="@+id/relativeLayout1" />
     <LinearLayout
         android:layout_width="fill_parent"
-        android:layout_height="150dp"
+        android:layout_height="120dp"
         android:background="@drawable/border_bottom"
         android:orientation="horizontal">
         <LinearLayout
@@ -40,9 +40,10 @@
                 android:text="Sofia Vergara"
                 android:textAppearance="?android:attr/textAppearanceMedium"
                 android:layout_width="match_parent"
-                android:layout_height="25dp"
+                android:layout_height="20dp"
                 android:id="@+id/textView1"
-                android:textColor="#ff040000" />
+                android:textColor="#ff040000"
+                android:layout_marginTop="50dp" />
             <LinearLayout
                 android:orientation="horizontal"
                 android:minWidth="25px"
@@ -51,12 +52,13 @@
                 android:layout_height="20dp"
                 android:id="@+id/linearLayout1" />
             <TextView
-                android:text="Edit Text"
+                android:text="Edit Picture"
                 android:textAppearance="?android:attr/textAppearanceSmall"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                android:layout_height="20dp"
                 android:id="@+id/textView2"
-                android:textColor="#ff000000" />
+                android:textColor="#ff000000"
+                android:layout_marginTop="1dp" />
         </LinearLayout>
     </LinearLayout>
 </LinearLayout>
