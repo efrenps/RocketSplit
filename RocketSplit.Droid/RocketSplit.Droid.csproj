@@ -53,9 +53,10 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="MainActivity.cs" />
     <Compile Include="Resources\Resource.designer.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Activities\MainActivity.cs" />
+    <Compile Include="Activities\HomeActivity.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\AboutResources.txt" />
@@ -71,7 +72,23 @@
     <AndroidResource Include="Resources\drawable-xhdpi\Icon.png" />
     <AndroidResource Include="Resources\drawable-xxhdpi\Icon.png" />
     <AndroidResource Include="Resources\drawable-xxxhdpi\Icon.png" />
-    <AndroidResource Include="Resources\layout\header.axml" />
+    <AndroidResource Include="Resources\layout\Home.axml" />
+    <AndroidResource Include="Resources\drawable-hdpi\border_Bottom.xml" />
+    <AndroidResource Include="Resources\layout-small\Home.axml" />
+    <AndroidResource Include="Resources\layout-small\Main.axml" />
+    <AndroidResource Include="Resources\layout-xlarge\Home.axml" />
+    <AndroidResource Include="Resources\layout-xlarge\Main.axml" />
+    <AndroidResource Include="Resources\layout-normal\Home.axml" />
+    <AndroidResource Include="Resources\layout-normal\Main.axml" />
+    <AndroidResource Include="Resources\layout-large\Home.axml" />
+    <AndroidResource Include="Resources\layout-large\Main.axml" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Novell\Novell.MonoDroid.CSharp.targets" />
+  <ItemGroup>
+    <Folder Include="Activities\" />
+    <Folder Include="Resources\layout-large\" />
+    <Folder Include="Resources\layout-normal\" />
+    <Folder Include="Resources\layout-small\" />
+    <Folder Include="Resources\layout-xlarge\" />
+  </ItemGroup>
 </Project>

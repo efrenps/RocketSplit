@@ -1,18 +1,21 @@
-﻿using System;
+﻿
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
 
 using Android.App;
 using Android.Content;
+using Android.OS;
 using Android.Runtime;
 using Android.Views;
 using Android.Widget;
-using Android.OS;
 
 namespace RocketSplit.Droid
 {
-	[Activity (Label = "RocketSplit", MainLauncher = true, Icon = "@drawable/icon")]
-	public class MainActivity : Activity
+	[Activity (Label = "HomeActivity")]			
+	public class HomeActivity : Activity
 	{
-		
 		protected override void OnCreate (Bundle bundle)
 		{
 			base.OnCreate (bundle);
@@ -24,17 +27,9 @@ namespace RocketSplit.Droid
 			this.Window.SetFlags (WindowManagerFlags.Fullscreen, WindowManagerFlags.Fullscreen);
 
 			// Set our view from the "main" layout resource
-			SetContentView (Resource.Layout.Main);
+			SetContentView (Resource.Layout.Home);
 
-			// Get our button from the layout resource,
-			// and attach an event to it
-			Button button = FindViewById<Button> (Resource.Id.buttonSingIn);
-			
-			button.Click += delegate {
-				Console.WriteLine("click");
-			};
 		}
 	}
 }
-
 

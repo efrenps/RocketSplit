@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:background="#f1f1f2"
+    android:layout_height="match_parent"
+    android:gravity="top">
+    <RelativeLayout
+        android:minHeight="50dp"
+        android:background="#F1652C"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="top"
+        android:id="@+id/relativeLayout1" />
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="150dp"
+        android:background="@drawable/border_bottom"
+        android:orientation="horizontal">
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:orientation="vertical"
+            android:layout_gravity="left"
+            android:layout_weight="4">
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:layout_gravity="center"
+                android:id="@+id/imageView1"
+                android:src="@drawable/icon" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:orientation="vertical"
+            android:layout_gravity="right"
+            android:layout_weight="6">
+            <TextView
+                android:text="Sofia Vergara"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:layout_width="match_parent"
+                android:layout_height="25dp"
+                android:id="@+id/textView1"
+                android:textColor="#ff040000" />
+            <LinearLayout
+                android:orientation="horizontal"
+                android:minWidth="25px"
+                android:minHeight="25px"
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:id="@+id/linearLayout1" />
+            <TextView
+                android:text="Edit Text"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView2"
+                android:textColor="#ff000000" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

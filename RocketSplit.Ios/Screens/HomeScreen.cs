@@ -679,16 +679,16 @@ namespace RocketSplit.Ios
 				counter++;	
 			}
 
-			UITableView rootTable = new UITableView(){
-				Frame = new CGRect (0f, 0f, scroll.Frame.Width * 0.5f, scroll.Frame.Height),
-				AutoresizingMask = UIViewAutoresizing.All,
-				SeparatorStyle = UITableViewCellSeparatorStyle.SingleLine,
-				TableFooterView = new UIView (),
-				BackgroundColor = UIColor.FromRGB (231, 231, 232),
-				Source = new RootTableSource (items)
-			};
-
-			scroll.AddSubview (rootTable);
+//			UITableView rootTable = new UITableView(){
+//				Frame = new CGRect (0f, 0f, scroll.Frame.Width * 0.5f, scroll.Frame.Height),
+//				AutoresizingMask = UIViewAutoresizing.All,
+//				SeparatorStyle = UITableViewCellSeparatorStyle.SingleLine,
+//				TableFooterView = new UIView (),
+//				BackgroundColor = UIColor.FromRGB (231, 231, 232),
+//				Source = new RootTableSource (items)
+//			};
+//
+//			scroll.AddSubview (rootTable);
 
 
 			UIView borderBottom = new UIView (new CGRect (0f, scroll.Frame.Height - 1f, scroll.Frame.Width, 1f));
